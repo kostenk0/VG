@@ -47,6 +47,27 @@
         }
       },
       "disclaimerBanner": "AI guidance is information, not legal advice."
+    },
+    "visaTypes": {
+      "heading": "Visas we focus on",
+      "primaryLabel": "Primary focus",
+      "primary": {
+        "eb2niw": {
+          "name": "EB-2 NIW",
+          "desc": "National Interest Waiver. For applicants whose work benefits the United States."
+        },
+        "o1a": {
+          "name": "O-1A",
+          "desc": "Extraordinary ability in sciences, business, education, athletics."
+        },
+        "eb1a": {
+          "name": "EB-1A",
+          "desc": "Extraordinary ability — the highest skill category for green card."
+        }
+      },
+      "alsoSupportedLabel": "Also supported",
+      "alsoSupported": "H-1B · L-1 · E-2 · F-1 / OPT → H-1B transition",
+      "asylumNote": "Asylum guidance is paused due to current US policy."
     }
   },
   "disclaimer": {
