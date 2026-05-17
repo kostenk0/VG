@@ -4,6 +4,7 @@ import { Hero } from '@/components/sections/Hero'
 import { Problem } from '@/components/sections/Problem'
 import { HowItWorks } from '@/components/sections/HowItWorks'
 import { VisaTypes } from '@/components/sections/VisaTypes'
+import { PricingTeaser } from '@/components/sections/PricingTeaser'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Problem />
       <HowItWorks />
       <VisaTypes />
+      <PricingTeaser />
       <Footer />
     </>
   )

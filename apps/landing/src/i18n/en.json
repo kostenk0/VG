@@ -68,6 +68,31 @@
       "alsoSupportedLabel": "Also supported",
       "alsoSupported": "H-1B · L-1 · E-2 · F-1 / OPT → H-1B transition",
       "asylumNote": "Asylum guidance is paused due to current US policy."
+    },
+    "pricing": {
+      "heading": "Pricing",
+      "subheading": "Start free. Upgrade when you’re ready to file.",
+      "tiers": {
+        "free": {
+          "name": "Free",
+          "price": "$0",
+          "tagline": "Validate your idea",
+          "features": ["Visa-path quiz", "2 free templates", "Limited AI questions"]
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "from $29/mo",
+          "tagline": "Build your full petition",
+          "features": ["All petition templates", "Unlimited AI assistant", "Document checklists"]
+        },
+        "expert": {
+          "name": "Expert",
+          "price": "from $149",
+          "tagline": "Add a real attorney review",
+          "features": ["Everything in Pro", "1× partner-attorney review", "Priority support"]
+        }
+      },
+      "ctaNote": "Be first to know when we launch"
     }
   },
   "disclaimer": {
