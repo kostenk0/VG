@@ -1,0 +1,23 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Мова",
+      "en": "EN",
+      "uk": "UK"
+    },
+    "joinWaitlist": "Приєднатися до waitlist",
+    "footer": {
+      "disclaimer": "VisaForge не є юридичною фірмою. Ми не надаємо юридичних консультацій.",
+      "disclaimerLink": "Дисклеймер",
+      "contactLink": "Контакт",
+      "copyright": "© {{year}} VisaForge"
+    }
+  },
+  "home": {
+    "title": "VisaForge — Подавайте на US-візу самостійно з AI-помічником",
+    "description": "EB-2 NIW, O-1A, EB-1A та інші. Шаблони, чек-листи, AI-асистент. Для амбітних людей, які подаються самі."
+  },
+  "disclaimer": {
+    "title": "Юридичний дисклеймер — VisaForge"
+  }
+}

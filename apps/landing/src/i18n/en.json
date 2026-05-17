@@ -1,0 +1,23 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Language",
+      "en": "EN",
+      "uk": "UK"
+    },
+    "joinWaitlist": "Join the waitlist",
+    "footer": {
+      "disclaimer": "VisaForge is not a law firm. We do not provide legal advice.",
+      "disclaimerLink": "Disclaimer",
+      "contactLink": "Contact",
+      "copyright": "© {{year}} VisaForge"
+    }
+  },
+  "home": {
+    "title": "VisaForge — Self-file your US visa with AI guidance",
+    "description": "EB-2 NIW, O-1A, EB-1A and more. Templates, checklists, AI assistant. For ambitious individuals filing themselves."
+  },
+  "disclaimer": {
+    "title": "Legal Disclaimer — VisaForge"
+  }
+}
