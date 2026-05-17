@@ -16,7 +16,7 @@ This is a pnpm-workspace monorepo. Current contents:
 
 ## Prerequisites
 
-- Node.js 20.18.0 (use `nvm use` to pick it up from `.nvmrc`)
+- Node.js 24.x (use `nvm use` to pick it up from `.nvmrc`)
 - pnpm 9.12.0 (`corepack enable && corepack prepare pnpm@9.12.0 --activate`)
 
 ## Setup
