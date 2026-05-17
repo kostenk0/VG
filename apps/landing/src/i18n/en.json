@@ -29,6 +29,24 @@
         "tools": "Tools like Alma and Boundless serve HR teams, not individuals",
         "diy": "Self-filers face USCIS forms with no guidance and no feedback"
       }
+    },
+    "howItWorks": {
+      "heading": "How it works",
+      "steps": {
+        "quiz": {
+          "title": "1. Take the quiz",
+          "body": "Five minutes — personalized visa path recommendation."
+        },
+        "templates": {
+          "title": "2. Use templates",
+          "body": "Petition letters, business plans, recommendation letter samples."
+        },
+        "ai": {
+          "title": "3. AI assistant",
+          "body": "Answers 24/7. Reviews your drafts. Suggests improvements."
+        }
+      },
+      "disclaimerBanner": "AI guidance is information, not legal advice."
     }
   },
   "disclaimer": {
