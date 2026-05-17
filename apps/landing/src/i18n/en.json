@@ -93,6 +93,39 @@
         }
       },
       "ctaNote": "Be first to know when we launch"
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": {
+        "legalAdvice": {
+          "q": "Is this legal advice?",
+          "a": "No. VisaForge is not a law firm and we do not provide legal advice. Our templates and AI assistant are educational tools — for legal advice, consult a licensed immigration attorney."
+        },
+        "lawyerReview": {
+          "q": "Can a real lawyer review my documents?",
+          "a": "Yes — on our Expert tier, a partner immigration attorney reviews your petition before you file. Optional and one-time per petition."
+        },
+        "supportedVisas": {
+          "q": "Which visas do you support?",
+          "a": "Primary focus: EB-2 NIW, O-1A, EB-1A. Also supported: H-1B, L-1, E-2, and F-1/OPT to H-1B transitions."
+        },
+        "policyChanges": {
+          "q": "What about US policy changes?",
+          "a": "We monitor USCIS rule changes weekly and update templates and checklists. We pause categories where guidance is unreliable (asylum is currently paused)."
+        },
+        "launch": {
+          "q": "When does it launch?",
+          "a": "Beta in Q3 2026 — waitlist members are invited first."
+        },
+        "languages": {
+          "q": "Which languages are supported?",
+          "a": "EN and UK at launch. ES, ZH, and HI are on the roadmap based on waitlist demand."
+        }
+      }
+    },
+    "finalCta": {
+      "heading": "Get on the waitlist",
+      "subheading": "Be among the first to file your US visa with AI guidance."
     }
   },
   "disclaimer": {
