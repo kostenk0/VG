@@ -1,11 +1,15 @@
-import { useTranslation } from 'react-i18next'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+import { Hero } from '@/components/sections/Hero'
+import { Problem } from '@/components/sections/Problem'
 
 export default function HomePage() {
-  const { t } = useTranslation('home')
   return (
-    <main className="mx-auto max-w-3xl p-8">
-      <h1 className="text-3xl font-semibold">{t('title')}</h1>
-      <p className="text-muted-foreground mt-2">{t('description')}</p>
-    </main>
+    <>
+      <Header />
+      <Hero />
+      <Problem />
+      <Footer />
+    </>
   )
 }

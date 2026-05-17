@@ -15,7 +15,21 @@
   },
   "home": {
     "title": "VisaForge — Self-file your US visa with AI guidance",
-    "description": "EB-2 NIW, O-1A, EB-1A and more. Templates, checklists, AI assistant. For ambitious individuals filing themselves."
+    "description": "EB-2 NIW, O-1A, EB-1A and more. Templates, checklists, AI assistant. For ambitious individuals filing themselves.",
+    "hero": {
+      "heading": "Self-file your US visa with AI guidance",
+      "subheading": "EB-2 NIW, O-1A, EB-1A and more — templates, checklists, AI assistant. Built for individuals, not corporations.",
+      "trustLine": "We never give legal advice. We help you prepare your own petition."
+    },
+    "problem": {
+      "heading": "Why this exists",
+      "intro": "Immigration lawyers charge $5,000 to $15,000 or more. Existing platforms target corporations. Nothing exists for ambitious individuals filing themselves.",
+      "bullets": {
+        "cost": "Attorney fees are prohibitive for early-career applicants",
+        "tools": "Tools like Alma and Boundless serve HR teams, not individuals",
+        "diy": "Self-filers face USCIS forms with no guidance and no feedback"
+      }
+    }
   },
   "disclaimer": {
     "title": "Legal Disclaimer — VisaForge"
