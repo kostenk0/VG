@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { SEO } from '@/lib/seo'
 
 const SECTION_KEYS = [
   'notLawFirm',
@@ -15,6 +16,7 @@ export default function DisclaimerPage() {
 
   return (
     <>
+      <SEO title={t('title')} />
       <Header />
       <main className="mx-auto max-w-3xl px-6 py-16">
         <h1 className="text-3xl font-semibold tracking-tight">{t('heading')}</h1>
