@@ -13,6 +13,7 @@ export default [
       '**/test-results/**',
       '**/coverage/**',
       '**/.lighthouseci/**',
+      '**/.lhci-dist/**',
       '**/.tsbuildinfo-node/**',
     ],
   },

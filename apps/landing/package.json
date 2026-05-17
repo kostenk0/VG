@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "e2e": "playwright test",
-    "lighthouse": "lhci autorun"
+    "lighthouse:prepare": "rm -rf .lhci-dist && mkdir -p .lhci-dist/vg && cp -R dist/. .lhci-dist/vg/",
+    "lighthouse": "pnpm lighthouse:prepare && lhci autorun"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
@@ -33,6 +34,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.15.1",
     "@playwright/test": "^1.60.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
