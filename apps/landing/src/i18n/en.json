@@ -129,6 +129,35 @@
     }
   },
   "disclaimer": {
-    "title": "Legal Disclaimer — VisaForge"
+    "title": "Legal Disclaimer — VisaForge",
+    "heading": "Legal Disclaimer",
+    "lastUpdated": "Last updated: 2026-05-17",
+    "sections": {
+      "notLawFirm": {
+        "heading": "Not a law firm",
+        "body": "VisaForge is not a law firm. Using this website or any of our tools does not create an attorney-client relationship. We do not provide legal advice. Information on this site is provided for general educational purposes only."
+      },
+      "aiOutputs": {
+        "heading": "AI outputs are information, not advice",
+        "body": "Our AI assistant generates educational information based on publicly available USCIS guidance. AI outputs may contain errors, omissions, or outdated information. Do not rely on AI outputs as a substitute for legal advice from a licensed immigration attorney."
+      },
+      "uscisRules": {
+        "heading": "USCIS rules change frequently",
+        "body": "United States immigration law and USCIS policies change frequently. Always verify any information against the official USCIS website (uscis.gov) and current law before submitting any petition or relying on guidance."
+      },
+      "recommendation": {
+        "heading": "We strongly recommend a licensed attorney",
+        "body": "For any specific legal question — including whether you qualify for a particular visa, how to interpret regulations, or how to respond to USCIS — we strongly recommend consulting a licensed US immigration attorney."
+      },
+      "liability": {
+        "heading": "Limitation of liability",
+        "body": "VisaForge is provided \"as is\" without warranty of any kind. To the maximum extent permitted by law, we disclaim liability for any damages arising from your use of this site or its content, including but not limited to denied petitions, missed deadlines, or rejected applications."
+      },
+      "resources": {
+        "heading": "Useful official resources",
+        "uscis": "USCIS — official US immigration agency",
+        "aila": "AILA — find a licensed immigration attorney"
+      }
+    }
   }
 }
