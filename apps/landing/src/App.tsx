@@ -1,20 +1,18 @@
-import { Button } from '@/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card'
-import { Badge } from '@/ui/badge'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import HomePage from '@/pages/Home'
+import DisclaimerPage from '@/pages/Disclaimer'
+import NotFoundPage from '@/pages/NotFound'
+
+const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 export default function App() {
   return (
-    <main className="mx-auto max-w-2xl space-y-6 p-8">
-      <Card>
-        <CardHeader>
-          <CardTitle>VisaForge — shadcn OK</CardTitle>
-        </CardHeader>
-        <CardContent className="flex items-center gap-4">
-          <Button>Primary</Button>
-          <Button variant="outline">Outline</Button>
-          <Badge>Beta</Badge>
-        </CardContent>
-      </Card>
-    </main>
+    <BrowserRouter basename={BASE_PATH}>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/disclaimer" element={<DisclaimerPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
