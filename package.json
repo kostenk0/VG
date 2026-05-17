@@ -2,6 +2,7 @@
   "name": "vg",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "description": "VisaForge monorepo — AI-assisted US immigration self-filing platform.",
   "packageManager": "pnpm@9.12.0",
   "engines": {
