@@ -8,6 +8,7 @@ type CarouselApi = NonNullable<UseEmblaCarouselType[1]>
 
 interface CarouselContextValue {
   api: CarouselApi | undefined
+  emblaRef: (node: HTMLElement | null) => void
   selectedIndex: number
   scrollSnaps: number[]
   scrollTo: (index: number) => void
@@ -73,6 +74,7 @@ export function Carousel({ loop = false, className, children, ...props }: Carous
   const value = React.useMemo<CarouselContextValue>(
     () => ({
       api,
+      emblaRef,
       selectedIndex,
       scrollSnaps,
       scrollTo: (i) => api?.scrollTo(i),
@@ -81,22 +83,25 @@ export function Carousel({ loop = false, className, children, ...props }: Carous
       canScrollPrev,
       canScrollNext,
     }),
-    [api, selectedIndex, scrollSnaps, canScrollPrev, canScrollNext],
+    [api, emblaRef, selectedIndex, scrollSnaps, canScrollPrev, canScrollNext],
   )
 
   return (
     <CarouselContext.Provider value={value}>
       <div className={cn('relative', className)} {...props}>
-        <div ref={emblaRef} className="overflow-hidden">
-          {children}
-        </div>
+        {children}
       </div>
     </CarouselContext.Provider>
   )
 }
 
 export function CarouselContent({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
-  return <div className={cn('-ml-4 flex', className)} {...props} />
+  const { emblaRef } = useCarousel()
+  return (
+    <div ref={emblaRef} className="overflow-hidden">
+      <div className={cn('-ml-4 flex', className)} tabIndex={0} {...props} />
+    </div>
+  )
 }
 
 export function CarouselItem({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
@@ -157,23 +162,25 @@ export function CarouselDots({ getLabel, className }: CarouselDotsProps) {
   const { scrollSnaps, selectedIndex, scrollTo } = useCarousel()
   const total = scrollSnaps.length
   return (
-    <div role="tablist" className={cn('flex items-center gap-2', className)}>
-      {scrollSnaps.map((_, i) => (
-        <button
-          key={i}
-          type="button"
-          role="tab"
-          aria-selected={i === selectedIndex}
-          aria-label={getLabel(i, total)}
-          onClick={() => scrollTo(i)}
-          className={cn(
-            'h-2 rounded-full transition-all',
-            i === selectedIndex
-              ? 'bg-primary w-6'
-              : 'bg-muted-foreground/40 hover:bg-muted-foreground/60 w-2',
-          )}
-        />
-      ))}
+    <div className={cn('flex items-center gap-2', className)}>
+      {scrollSnaps.map((_, i) => {
+        const isActive = i === selectedIndex
+        return (
+          <button
+            key={i}
+            type="button"
+            aria-current={isActive ? 'true' : undefined}
+            aria-label={getLabel(i, total)}
+            onClick={() => scrollTo(i)}
+            className={cn(
+              'h-2 rounded-full transition-all',
+              isActive
+                ? 'bg-primary w-6'
+                : 'bg-muted-foreground/40 hover:bg-muted-foreground/60 w-2',
+            )}
+          />
+        )
+      })}
     </div>
   )
 }
