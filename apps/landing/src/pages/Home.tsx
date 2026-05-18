@@ -6,6 +6,7 @@ import { Problem } from '@/components/sections/Problem'
 import { HowItWorks } from '@/components/sections/HowItWorks'
 import { VisaTypes } from '@/components/sections/VisaTypes'
 import { PricingTeaser } from '@/components/sections/PricingTeaser'
+import { Testimonials } from '@/components/sections/Testimonials'
 import { FAQ } from '@/components/sections/FAQ'
 import { FinalCTA } from '@/components/sections/FinalCTA'
 import { SEO } from '@/lib/seo'
@@ -21,6 +22,7 @@ export default function HomePage() {
       <HowItWorks />
       <VisaTypes />
       <PricingTeaser />
+      <Testimonials />
       <FAQ />
       <FinalCTA />
       <Footer />
