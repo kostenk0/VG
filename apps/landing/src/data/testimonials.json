@@ -1,0 +1,72 @@
+[
+  {
+    "id": "andrii-k",
+    "name": "Andrii K.",
+    "role": "ML researcher",
+    "visa": "EB-2 NIW",
+    "initialsColor": "blue"
+  },
+  {
+    "id": "maria-g",
+    "name": "María G.",
+    "role": "Founder",
+    "visa": "O-1A",
+    "initialsColor": "amber"
+  },
+  {
+    "id": "olena-p",
+    "name": "Olena P.",
+    "role": "Senior PM",
+    "visa": "EB-1A",
+    "initialsColor": "violet"
+  },
+  {
+    "id": "raj-s",
+    "name": "Raj S.",
+    "role": "Robotics engineer",
+    "visa": "O-1A",
+    "initialsColor": "green"
+  },
+  {
+    "id": "dmytro-l",
+    "name": "Dmytro L.",
+    "role": "Backend engineer",
+    "visa": "H-1B → EB-2 NIW",
+    "initialsColor": "cyan"
+  },
+  {
+    "id": "sofia-c",
+    "name": "Sofia C.",
+    "role": "Designer",
+    "visa": "O-1A",
+    "initialsColor": "rose"
+  },
+  {
+    "id": "volodymyr-b",
+    "name": "Volodymyr B.",
+    "role": "Researcher",
+    "visa": "EB-2 NIW",
+    "initialsColor": "blue"
+  },
+  {
+    "id": "anastasiia-r",
+    "name": "Anastasiia R.",
+    "role": "Data scientist",
+    "visa": "EB-2 NIW",
+    "initialsColor": "green"
+  },
+  {
+    "id": "marcus-t",
+    "name": "Marcus T.",
+    "role": "Climate-tech founder",
+    "visa": "EB-1A",
+    "initialsColor": "amber"
+  },
+  {
+    "id": "yulia-m",
+    "name": "Yulia M.",
+    "role": "UX engineer",
+    "visa": "O-1A",
+    "initialsColor": "violet"
+  }
+]
