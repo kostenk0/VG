@@ -74,7 +74,9 @@ const VIEWPORTS = [
   { width: 375, height: 667 },
 ]
 
-const PATHS = ['/', '/disclaimer']
+// Note: Vite base is /vg/. Use './' prefix so URLs resolve under the base.
+// (The existing e2e/disclaimer.spec.ts follows the same convention.)
+const PATHS = ['/', './disclaimer']
 
 for (const viewport of VIEWPORTS) {
   for (const path of PATHS) {
