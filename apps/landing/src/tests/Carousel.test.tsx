@@ -1,7 +1,10 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest'
 import { render } from '@testing-library/react'
 
-const emblaMock = vi.fn(() => [vi.fn(), undefined as unknown])
+const emblaMock = vi.fn((...args: unknown[]) => {
+  void args
+  return [vi.fn(), undefined] as [unknown, unknown]
+})
 
 vi.mock('embla-carousel-react', () => ({
   default: (...args: unknown[]) => emblaMock(...args),
