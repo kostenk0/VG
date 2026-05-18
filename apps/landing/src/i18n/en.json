@@ -128,6 +128,25 @@
       "subheading": "Be among the first to file your US visa with AI guidance."
     }
   },
+  "testimonials": {
+    "heading": "Early-access voices",
+    "subheading": "Notes from people we're building this with.",
+    "previousLabel": "Previous testimonial",
+    "nextLabel": "Next testimonial",
+    "dotLabel": "Go to testimonial {{number}} of {{total}}",
+    "quotes": {
+      "andrii-k": "The petition-letter template was the first time I understood what evidence USCIS actually expects from me.",
+      "maria-g": "Five-minute quiz mapped O-1A vs EB-1A side by side, with concrete evidence buckets for each. Huge head-start.",
+      "olena-p": "The AI flagged three weak sentences in my NIW letter I'd have shipped without thinking.",
+      "raj-s": "Document checklist saved me three weekends of digging through Reddit threads.",
+      "dmytro-l": "Found out my H-1B path could pivot to NIW. Hadn't even considered it.",
+      "sofia-c": "Recommendation-letter samples were specific to creative work — not just generic engineer templates.",
+      "volodymyr-b": "Asked the AI to critique my draft as if it were a USCIS officer. The rewrite suggestions were surgical.",
+      "anastasiia-r": "Honest about what AI does and doesn't do — not pretending to be a lawyer. That trust mattered.",
+      "marcus-t": "Was paying a $400/hr consultant for the same checklist VisaForge has built in.",
+      "yulia-m": "Started out thinking I'd need a lawyer. Finished my draft over two weekends."
+    }
+  },
   "disclaimer": {
     "title": "Legal Disclaimer — VisaForge",
     "heading": "Legal Disclaimer",
