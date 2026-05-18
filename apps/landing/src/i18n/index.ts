@@ -12,13 +12,23 @@ void i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { common: en.common, home: en.home, disclaimer: en.disclaimer },
-      uk: { common: uk.common, home: uk.home, disclaimer: uk.disclaimer },
+      en: {
+        common: en.common,
+        home: en.home,
+        testimonials: en.testimonials,
+        disclaimer: en.disclaimer,
+      },
+      uk: {
+        common: uk.common,
+        home: uk.home,
+        testimonials: uk.testimonials,
+        disclaimer: uk.disclaimer,
+      },
     },
     fallbackLng: 'en',
     supportedLngs: SUPPORTED_LANGUAGES,
     defaultNS: 'common',
-    ns: ['common', 'home', 'disclaimer'],
+    ns: ['common', 'home', 'testimonials', 'disclaimer'],
     interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],
