@@ -11,7 +11,7 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-4">
           <LangSwitcher />
-          <WaitlistCTA size="default" />
+          <WaitlistCTA responsive />
         </div>
       </div>
     </header>
