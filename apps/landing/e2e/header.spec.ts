@@ -5,7 +5,7 @@ const VIEWPORTS = [
   { width: 375, height: 667 },
 ]
 
-const PATHS = ['/', '/disclaimer']
+const PATHS = ['/', './disclaimer']
 
 for (const viewport of VIEWPORTS) {
   for (const path of PATHS) {
