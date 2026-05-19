@@ -3,7 +3,7 @@
     "collect": {
       "staticDistDir": "./.lhci-dist",
       "url": ["http://localhost/vg/index.html"],
-      "numberOfRuns": 1,
+      "numberOfRuns": 3,
       "settings": {
         "preset": "desktop"
       }
